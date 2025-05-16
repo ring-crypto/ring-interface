@@ -1,0 +1,24 @@
+# Ignore artifacts:
+node_modules
+.turbo
+dist
+.next
+coverage
+
+# Lockfiles
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Generated files (examples)
+# Add any other specific files or patterns to ignore
+
+# Config files that you might not want Prettier to format, if they cause issues
+# vitest.config.ts
+# vite.config.ts
+# eslint.config.js 
